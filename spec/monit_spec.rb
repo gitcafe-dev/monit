@@ -149,7 +149,7 @@ describe Monit do
               "kilobyte" => "1850152" }
       },
         "type" => "5" }
-      Monit::Service.new(hash) 
+      Monit::Service.new(hash)
     end
 
     it "should create a new instance of Monit::Platform from a hash" do
